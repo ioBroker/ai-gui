@@ -1,0 +1,18 @@
+{
+    "ai_clear": "重新开始",
+    "ai_close": "关闭",
+    "ai_done": "完成。",
+    "ai_model": "模型",
+    "ai_no_adapter": "适配器未响应助手。请更新适配器并重启实例。",
+    "ai_no_answer": "服务商没有及时应答。",
+    "ai_no_key": "尚未配置 AI 提供商。请在实例设置中填写密钥。",
+    "ai_no_models": "服务商没有返回任何模型。请检查密钥；若用自有接口，也检查地址。",
+    "ai_placeholder": "问点什么…",
+    "ai_provider": "提供商",
+    "ai_send": "发送",
+    "ai_stop": "停止",
+    "ai_stopped": "已停止。",
+    "ai_title": "助手",
+    "ai_too_many_steps": "助手执行了太多步骤仍未完成。请告诉它如何继续。",
+    "ai_truncated": "回答被截断：模型已用完输出额度。"
+}

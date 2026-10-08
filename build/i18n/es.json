@@ -1,0 +1,18 @@
+{
+    "ai_clear": "Empezar de nuevo",
+    "ai_close": "Cerrar",
+    "ai_done": "Listo.",
+    "ai_model": "Modelo",
+    "ai_no_adapter": "El adaptador no responde al asistente. Actualiza el adaptador y reinicia la instancia.",
+    "ai_no_answer": "El proveedor no respondió a tiempo.",
+    "ai_no_key": "No hay ningún proveedor de IA configurado. Introduce una clave en los ajustes de la instancia.",
+    "ai_no_models": "El proveedor no indicó ningún modelo. Comprueba la clave y, en un endpoint propio, la dirección.",
+    "ai_placeholder": "Pregunta algo…",
+    "ai_provider": "Proveedor",
+    "ai_send": "Enviar",
+    "ai_stop": "Detener",
+    "ai_stopped": "Detenido.",
+    "ai_title": "Asistente",
+    "ai_too_many_steps": "El asistente necesitó demasiados pasos sin terminar. Dile cómo continuar.",
+    "ai_truncated": "La respuesta se cortó: el modelo agotó su límite de salida."
+}

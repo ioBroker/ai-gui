@@ -1,0 +1,18 @@
+{
+    "ai_clear": "Zacznij od nowa",
+    "ai_close": "Zamknij",
+    "ai_done": "Gotowe.",
+    "ai_model": "Model",
+    "ai_no_adapter": "Adapter nie odpowiada asystentowi. Zaktualizuj adapter i uruchom instancję ponownie.",
+    "ai_no_answer": "Dostawca nie odpowiedział na czas.",
+    "ai_no_key": "Nie skonfigurowano dostawcy AI. Wprowadź klucz w ustawieniach instancji.",
+    "ai_no_models": "Dostawca nie podał żadnych modeli. Sprawdź klucz, a przy własnym endpointcie także adres.",
+    "ai_placeholder": "Zapytaj o coś…",
+    "ai_provider": "Dostawca",
+    "ai_send": "Wyślij",
+    "ai_stop": "Zatrzymaj",
+    "ai_stopped": "Zatrzymano.",
+    "ai_title": "Asystent",
+    "ai_too_many_steps": "Asystent wykonał zbyt wiele kroków, nie kończąc zadania. Powiedz mu, jak kontynuować.",
+    "ai_truncated": "Odpowiedź została ucięta: model wyczerpał limit wyjścia."
+}

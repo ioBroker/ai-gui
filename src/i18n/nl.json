@@ -1,0 +1,18 @@
+{
+    "ai_clear": "Opnieuw beginnen",
+    "ai_close": "Sluiten",
+    "ai_done": "Klaar.",
+    "ai_model": "Model",
+    "ai_no_adapter": "De adapter antwoordt de assistent niet. Werk de adapter bij en herstart de instantie.",
+    "ai_no_answer": "De aanbieder antwoordde niet op tijd.",
+    "ai_no_key": "Er is geen AI-aanbieder ingesteld. Voer een sleutel in bij de instellingen van de instantie.",
+    "ai_no_models": "De aanbieder noemde geen modellen. Controleer de sleutel en, bij een eigen endpoint, het adres.",
+    "ai_placeholder": "Vraag iets…",
+    "ai_provider": "Aanbieder",
+    "ai_send": "Verzenden",
+    "ai_stop": "Stoppen",
+    "ai_stopped": "Gestopt.",
+    "ai_title": "Assistent",
+    "ai_too_many_steps": "De assistent had te veel stappen nodig zonder klaar te zijn. Vertel hem hoe hij verder moet.",
+    "ai_truncated": "Het antwoord is afgekapt: het model heeft zijn uitvoerbudget opgebruikt."
+}

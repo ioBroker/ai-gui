@@ -1,0 +1,18 @@
+{
+    "ai_clear": "Start over",
+    "ai_close": "Close",
+    "ai_done": "Done.",
+    "ai_model": "Model",
+    "ai_no_adapter": "The adapter does not answer the assistant. Update the adapter and restart the instance.",
+    "ai_no_answer": "The provider did not answer in time.",
+    "ai_no_key": "No AI provider is configured. Enter a key in the settings of the instance.",
+    "ai_no_models": "The provider offered no models. Check the key and, for an endpoint of your own, the address.",
+    "ai_placeholder": "Ask something…",
+    "ai_provider": "Provider",
+    "ai_send": "Send",
+    "ai_stop": "Stop",
+    "ai_stopped": "Stopped.",
+    "ai_title": "Assistant",
+    "ai_too_many_steps": "The assistant took too many steps without finishing. Tell it how to continue.",
+    "ai_truncated": "The answer was cut off: the model used up its output budget."
+}

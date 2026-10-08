@@ -1,0 +1,18 @@
+{
+    "ai_clear": "Von vorn beginnen",
+    "ai_close": "Schließen",
+    "ai_done": "Fertig.",
+    "ai_model": "Modell",
+    "ai_no_adapter": "Der Adapter antwortet dem Assistenten nicht. Adapter aktualisieren und die Instanz neu starten.",
+    "ai_no_answer": "Der Anbieter hat nicht rechtzeitig geantwortet.",
+    "ai_no_key": "Es ist kein KI-Anbieter eingerichtet. Trag einen Schlüssel in den Einstellungen der Instanz ein.",
+    "ai_no_models": "Der Anbieter hat keine Modelle genannt. Prüfe den Schlüssel und, bei einem eigenen Endpunkt, die Adresse.",
+    "ai_placeholder": "Frag etwas…",
+    "ai_provider": "Anbieter",
+    "ai_send": "Senden",
+    "ai_stop": "Anhalten",
+    "ai_stopped": "Angehalten.",
+    "ai_title": "Assistent",
+    "ai_too_many_steps": "Der Assistent hat zu viele Schritte gebraucht, ohne fertig zu werden. Sag ihm, wie es weitergehen soll.",
+    "ai_truncated": "Die Antwort wurde abgeschnitten: Das Modell hat sein Ausgabebudget aufgebraucht."
+}

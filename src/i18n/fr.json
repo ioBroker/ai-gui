@@ -1,0 +1,18 @@
+{
+    "ai_clear": "Recommencer",
+    "ai_close": "Fermer",
+    "ai_done": "Terminé.",
+    "ai_model": "Modèle",
+    "ai_no_adapter": "L'adaptateur ne répond pas à l'assistant. Mettez l'adaptateur à jour et redémarrez l'instance.",
+    "ai_no_answer": "Le fournisseur n'a pas répondu à temps.",
+    "ai_no_key": "Aucun fournisseur d'IA n'est configuré. Saisissez une clé dans les paramètres de l'instance.",
+    "ai_no_models": "Le fournisseur n'a indiqué aucun modèle. Vérifiez la clé et, pour un point de terminaison propre, l'adresse.",
+    "ai_placeholder": "Posez une question…",
+    "ai_provider": "Fournisseur",
+    "ai_send": "Envoyer",
+    "ai_stop": "Arrêter",
+    "ai_stopped": "Arrêté.",
+    "ai_title": "Assistant",
+    "ai_too_many_steps": "L'assistant a fait trop d'étapes sans terminer. Dites-lui comment continuer.",
+    "ai_truncated": "La réponse a été tronquée : le modèle a épuisé son budget de sortie."
+}

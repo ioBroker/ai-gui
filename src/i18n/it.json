@@ -1,0 +1,18 @@
+{
+    "ai_clear": "Ricominciare",
+    "ai_close": "Chiudi",
+    "ai_done": "Fatto.",
+    "ai_model": "Modello",
+    "ai_no_adapter": "L'adattatore non risponde all'assistente. Aggiorna l'adattatore e riavvia l'istanza.",
+    "ai_no_answer": "Il fornitore non ha risposto in tempo.",
+    "ai_no_key": "Nessun fornitore di IA configurato. Inserisci una chiave nelle impostazioni dell'istanza.",
+    "ai_no_models": "Il fornitore non ha indicato modelli. Controlla la chiave e, per un endpoint proprio, l’indirizzo.",
+    "ai_placeholder": "Chiedi qualcosa…",
+    "ai_provider": "Fornitore",
+    "ai_send": "Invia",
+    "ai_stop": "Ferma",
+    "ai_stopped": "Fermato.",
+    "ai_title": "Assistente",
+    "ai_too_many_steps": "L'assistente ha impiegato troppi passaggi senza finire. Digli come continuare.",
+    "ai_truncated": "La risposta è stata troncata: il modello ha esaurito il suo budget di output."
+}
