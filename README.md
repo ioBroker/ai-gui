@@ -72,6 +72,9 @@ useAiChat({
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+- (@GermanBluefox) Fixed: the package has `main` and `exports`, so Node and vitest find it, not only a bundler
+
 ### 0.0.2 (2026-10-08)
 - (@GermanBluefox) Initial version: client, chat hook, generic tools, Markdown and panel taken from vis-2 and javascript
 

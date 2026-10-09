@@ -2,8 +2,17 @@
   "name": "@iobroker/ai-gui",
   "version": "0.0.2",
   "description": "ioBroker AI chat for the browser: client, agent hook, generic tools and panel shared by admin, javascript and vis-2",
+  "main": "./build/index.js",
   "module": "./build/index.js",
   "types": "./build/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./build/index.d.ts",
+      "import": "./build/index.js",
+      "default": "./build/index.js"
+    },
+    "./package.json": "./package.json"
+  },
   "type": "module",
   "sideEffects": false,
   "publishConfig": {
@@ -44,7 +53,7 @@
     "npm": "npm i"
   },
   "dependencies": {
-    "@iobroker/ai-core": "^0.0.1"
+    "@iobroker/ai-core": "^0.0.2"
   },
   "peerDependencies": {
     "@iobroker/gui-components": "^10.3.1",
