@@ -53,7 +53,7 @@
     "npm": "npm i"
   },
   "dependencies": {
-    "@iobroker/ai-core": "^0.0.2"
+    "@iobroker/ai-core": "^0.0.4"
   },
   "peerDependencies": {
     "@iobroker/gui-components": "^10.3.1",

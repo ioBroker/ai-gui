@@ -72,6 +72,9 @@ useAiChat({
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+- (@GermanBluefox) Changed: `AiClient` names the session secret the adapter handed out
+
 ### 0.0.3 (2026-10-09)
 - (@GermanBluefox) Fixed: the package has `main` and `exports`, so Node and vitest find it, not only a bundler
 

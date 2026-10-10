@@ -37,6 +37,11 @@ export interface AiClientOptions {
 export type AiAskResult = AiChatResponse;
 
 interface PushChannel {
+    /**
+     * The secret the adapter handed out for this session. It recorded the user of this connection under
+     * it, so a request naming it is only served for that user. An adapter with an older `ai-core` hands
+     * out none and takes the token proposed here instead
+     */
     sessionToken: string;
     pending: Map<string, (answer: AiChatResponse) => void>;
 }
@@ -227,6 +232,9 @@ export class AiClient {
                 if (!result?.accepted) {
                     return null;
                 }
+                // the cast goes away with the next @iobroker/socket-client: `subscribeOnInstance` takes the
+                // shape of the fields the instance adds as a type parameter there
+                channel.sessionToken = (result as { session?: string }).session || channel.sessionToken;
                 // a reconnect gives the socket a new id: the adapter would push to a client that is gone
                 const onConnectionChange = (connected: boolean): void => {
                     if (!connected) {

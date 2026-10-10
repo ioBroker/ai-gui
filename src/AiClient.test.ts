@@ -3,7 +3,7 @@ import { describe, expect, it } from 'vitest';
 import { AiClient } from './AiClient';
 
 /** Just enough of a Connection: `sendTo` answers from `answers`, `subscribeOnInstance` as configured */
-function fakeSocket(options: { push?: boolean; answers: Record<string, (data: any) => any> }): any {
+function fakeSocket(options: { push?: boolean; session?: string; answers: Record<string, (data: any) => any> }): any {
     let pushHandler: ((data: unknown) => void) | null = null;
     const sent: { command: string; data: any }[] = [];
     return {
@@ -18,7 +18,7 @@ function fakeSocket(options: { push?: boolean; answers: Record<string, (data: an
                 return { accepted: false };
             }
             pushHandler = callback;
-            return { accepted: true };
+            return options.session ? { accepted: true, session: options.session } : { accepted: true };
         },
         registerConnectionHandler: () => {},
         unregisterConnectionHandler: () => {},
@@ -61,6 +61,22 @@ describe('AiClient', () => {
         });
         expect(answer).toMatchObject({ success: true, content: 'later' });
         expect(socket.sent[0].data.uiSession).toMatch(/^ai-/);
+    });
+
+    it('names the session secret the adapter handed out, not one of its own', async () => {
+        const socket = fakeSocket({
+            push: true,
+            session: 'from-the-adapter',
+            answers: {
+                'ai:chat': data => {
+                    setTimeout(() => socket.push({ requestId: data.requestId, success: true, content: 'ok' }), 5);
+                    return { accepted: true, requestId: data.requestId };
+                },
+            },
+        });
+        const client = new AiClient(socket, 'javascript.0');
+        await client.ask({ provider: 'openai', model: 'm', messages: [{ role: 'user', content: 'x' }] });
+        expect(socket.sent[0].data.uiSession).toBe('from-the-adapter');
     });
 
     it('uses the command names it is given', async () => {

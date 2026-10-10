@@ -166,6 +166,9 @@ export class AiClient {
                 if (!result?.accepted) {
                     return null;
                 }
+                // the cast goes away with the next @iobroker/socket-client: `subscribeOnInstance` takes the
+                // shape of the fields the instance adds as a type parameter there
+                channel.sessionToken = result.session || channel.sessionToken;
                 // a reconnect gives the socket a new id: the adapter would push to a client that is gone
                 const onConnectionChange = (connected) => {
                     if (!connected) {
