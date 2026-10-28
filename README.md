@@ -72,7 +72,7 @@ useAiChat({
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 0.0.5 (2026-10-28)
 - (@GermanBluefox) Added: preferred models for the provider OpenRouter (needs `@iobroker/ai-core` 0.0.6)
 
 ### 0.0.4 (2026-10-10)
