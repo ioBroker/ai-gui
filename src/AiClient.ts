@@ -52,6 +52,8 @@ const PREFERRED_MODELS: Record<AiProvider, string[]> = {
     openai: ['gpt-5', 'gpt-4.1', 'gpt-4o'],
     gemini: ['gemini-2.5-pro', 'gemini-2.5-flash', 'gemini-2.0-flash'],
     deepseek: ['deepseek-chat'],
+    // OpenRouter names a model with its vendor in front
+    openrouter: ['anthropic/claude-sonnet-4', 'openai/gpt-5', 'google/gemini-2.5-pro'],
     custom: [],
 };
 

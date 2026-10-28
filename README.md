@@ -72,6 +72,9 @@ useAiChat({
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+- (@GermanBluefox) Added: preferred models for the provider OpenRouter (needs `@iobroker/ai-core` 0.0.6)
+
 ### 0.0.4 (2026-10-10)
 - (@GermanBluefox) Changed: `AiClient` names the session secret the adapter handed out
 
